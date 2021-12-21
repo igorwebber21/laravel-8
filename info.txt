@@ -13,3 +13,11 @@ php artisan queue:work
 php artisan queue:listen
 
 На удаленном сервере активируется супервизор для прослушивания jobs
+
+_________________________________________________________________________________
+// Laravel 8. 3. Queue
+php artisan make:command EveryMinuteJob
+
+php artisan minute:job
+
+php artisan schedule:work

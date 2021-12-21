@@ -66,6 +66,12 @@ return [
             'level' => 'debug',
         ],
 
+        'schedulelogs' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/schedulelogs.log'),
+            'level' => 'debug',
+        ],
+
         'daily' => [
             'driver' => 'daily',
             'path' => storage_path('logs/laravel.log'),
