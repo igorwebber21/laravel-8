@@ -15,9 +15,15 @@ php artisan queue:listen
 На удаленном сервере активируется супервизор для прослушивания jobs
 
 _________________________________________________________________________________
-// Laravel 8. 3. Queue
+// Laravel 8. 3. Schedule - https://www.youtube.com/watch?v=vZYRDRF4yF4&ab_channel=CodeWithDary
 php artisan make:command EveryMinuteJob
 
 php artisan minute:job
 
 php artisan schedule:work
+
+
+_________________________________________________________________________________
+// Laravel 8. 4. Redis - https://www.youtube.com/watch?v=U4QTU-_Yb3w&t=1150s
+https://github.com/erikdubbelboer/phpRedisAdmin
+

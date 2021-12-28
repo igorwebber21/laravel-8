@@ -19,3 +19,5 @@ Route::get('/', [MainController::class, 'index'])->name('main');
 
 // queue - очереди
 Route::get('/queue', [QueueController::class, 'index'])->name('queue.index');
+
+Route::get('/cache', [CacheController::class, 'index'])->name('cache.index');

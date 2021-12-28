@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="https://getbootstrap.com/docs/4.1/assets/img/favicons/favicon.ico">
 
-    <title>Main</title>
+    <title>Laravel 8</title>
 
     <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
@@ -35,7 +35,7 @@
                {{-- <a class="text-muted" href="#">Subscribe</a>--}}
             </div>
             <div class="col-4 text-center">
-                <a class="blog-header-logo text-dark" href="#">Laravel 8</a>
+                <a class="blog-header-logo text-dark" href="/">Laravel 8</a>
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center">
                 {{--<a class="text-muted" href="#">
@@ -49,7 +49,7 @@
     <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between">
             <a class="p-2 text-muted" href="{{ route('queue.index') }}">Queue</a>
-            <a class="p-2 text-muted" href="#">U.S.</a>
+            <a class="p-2 text-muted" href="{{ route('cache.index') }}">Cache</a>
             <a class="p-2 text-muted" href="#">Technology</a>
             <a class="p-2 text-muted" href="#">Design</a>
             <a class="p-2 text-muted" href="#">Culture</a>
