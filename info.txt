@@ -27,3 +27,19 @@ ________________________________________________________________________________
 // Laravel 8. 4. Redis - https://www.youtube.com/watch?v=U4QTU-_Yb3w&t=1150s
 https://github.com/erikdubbelboer/phpRedisAdmin
 
+
+_________________________________________________________________________________
+// Laravel 8. 5. Broadcast -https://www.youtube.com/watch?v=UwB5z6u7vt8&ab_channel=CodeWithDary - vue variant
+https://www.youtube.com/watch?v=l44IF9fBNOs&t=511s&ab_channel=NeilRowe - jquery variant
+https://laravel.ru/forum/viewtopic.php?id=4836 - error bug fixed
+
+https://pusher.com/ - login
+
+composer require pusher/pusher-php-server
+npm install pusher-js laravel-echo --save
+
+composer require laravel/ui
+php artisan ui vue
+
+npm install
+npm run watch (if not work - "npm update vue-loader")
