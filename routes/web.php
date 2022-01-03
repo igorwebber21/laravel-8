@@ -52,3 +52,5 @@ Route::post('/chat', function(Request $request){
 
 Route::get('/collection', [CollectionController::class, 'index'])->name('collection.index');
 
+Route::get('/contracts', [ContractsController::class, 'index'])->name('contracts.index');
+

@@ -43,3 +43,9 @@ php artisan ui vue
 
 npm install
 npm run watch (if not work - "npm update vue-loader")
+
+
+_________________________________________________________________________________
+// Laravel 8. 7. Сервисы, контракты и внедрение зависимостей
+https://www.youtube.com/watch?v=5Kr32QFDso0&t=692s&ab_channel=Lectoria.%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%D0%B2%D0%B5%D0%B1-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B5.
+
