@@ -51,7 +51,7 @@
             <a class="p-2 text-muted" href="{{ route('queue.index') }}">Queue</a>
             <a class="p-2 text-muted" href="{{ route('cache.index') }}">Cache</a>
             <a class="p-2 text-muted" href="/chat">Chat with broadcast (pusher notify)</a>
-            <a class="p-2 text-muted" href="#">Design</a>
+            <a class="p-2 text-muted" href="{{ route('collection.index') }}">Collection</a>
             <a class="p-2 text-muted" href="#">Culture</a>
             <a class="p-2 text-muted" href="#">Business</a>
             <a class="p-2 text-muted" href="#">Politics</a>

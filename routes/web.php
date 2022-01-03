@@ -49,3 +49,6 @@ Route::post('/chat', function(Request $request){
     event(new MessageNotification($request->message));
 });
 
+
+Route::get('/collection', [CollectionController::class, 'index'])->name('collection.index');
+
