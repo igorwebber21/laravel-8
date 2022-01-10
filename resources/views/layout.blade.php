@@ -52,14 +52,7 @@
             <a class="p-2 text-muted" href="{{ route('cache.index') }}">Cache</a>
             <a class="p-2 text-muted" href="/chat">Chat with broadcast (pusher notify)</a>
             <a class="p-2 text-muted" href="{{ route('collection.index') }}">Collection</a>
-            <a class="p-2 text-muted" href="#">Culture</a>
-            <a class="p-2 text-muted" href="#">Business</a>
-            <a class="p-2 text-muted" href="#">Politics</a>
-            <a class="p-2 text-muted" href="#">Opinion</a>
-            <a class="p-2 text-muted" href="#">Science</a>
-            <a class="p-2 text-muted" href="#">Health</a>
-            <a class="p-2 text-muted" href="#">Style</a>
-            <a class="p-2 text-muted" href="#">Travel</a>
+            <a class="p-2 text-muted" href="{{ route('contracts.index') }}">Contracts</a>
         </nav>
     </div>
 </div>

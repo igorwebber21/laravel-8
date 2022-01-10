@@ -18,7 +18,7 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(VideoHosting::class, function($app){ // singleton
-            return new Vimeo();
+            return new Youtube();
         });
     }
 

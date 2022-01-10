@@ -8,14 +8,19 @@ use App\Contracts\Video\VideoHosting;
 
 class Vimeo implements VideoHosting
 {
+    /**
+     * @var int
+     */
+    private $random;
+
     public function __construct()
     {
-
+        $this->random = rand(0,100);
     }
 
     public function showRandomString()
     {
-        return 'Вывод из функции '.__METHOD__.": ".rand(0,100);
+        return 'Вывод из функции '.__METHOD__.": ".$this->random;
     }
 
     public function getVideoWidth()
